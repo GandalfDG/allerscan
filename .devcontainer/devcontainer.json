@@ -3,6 +3,9 @@
   "features": {
     "ghcr.io/devcontainers/features/python:1": {} 
   },
+  "postCreateCommand": {
+    "createVenv": ["python", "-m", "venv", "/workspaces/allerscan/venv"]
+  },
   "customizations": {
     "vscode": {
       "extensions": [
