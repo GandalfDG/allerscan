@@ -4,7 +4,7 @@
     "ghcr.io/devcontainers/features/python:1": {"version": "3.12"} 
   },
   "postCreateCommand": {
-    "createVenv": ["python", "-m", "venv", "/workspaces/allerscan/venv"]
+    "createVenv": ["python3", "-m", "venv", "/workspaces/allerscan/venv"]
   },
   "customizations": {
     "vscode": {
