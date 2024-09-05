@@ -9,7 +9,8 @@ def scanpage(request):
     if request.method == "POST":
         form = ImageUploadForm(request.POST, request.FILES)
         if form.is_valid():
-            print(form.files)
+            image_field = form.cleaned_data["image"]
+            print(image_field.image)
         
     else:
         form = ImageUploadForm()
