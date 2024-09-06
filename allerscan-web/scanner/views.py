@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.template import loader
 from django.conf import settings
@@ -28,6 +28,8 @@ def scanpage(request):
                     api_response = readapi.read_api_request(upload_url)
                     print(upload_url)
                     print(api_response.text)
+
+                    return HttpResponseRedirect("/submit/")
                 except OSError as err:
                     logger.error("Couldn't save uploaded image", exc_info=err)
                 
@@ -37,3 +39,6 @@ def scanpage(request):
         form = ImageUploadForm()
     
     return render(request, "scanner/index.html", {"form": form})
+
+def submitpage(request):
+    return HttpResponse("submitted!")
