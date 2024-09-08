@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import os
 import json
 import requests
+import yaml
 
 load_dotenv()
 
@@ -25,3 +26,14 @@ def read_api_request(image_url):
     response = requests.post(api_endpoint + "computervision/imageanalysis:analyze", params=query_params, headers=request_header, data=request_body)
 
     return response
+
+def load_allergens(yaml_path: str)-> dict:
+    pass
+
+def match_allergens(response: requests.Response):
+    ingredients = response.json()
+    text: str = ingredients["readResult"]["content"]
+    ingredient_list = text.split(",")
+
+    for ingredient in ingredient_list:
+        pass

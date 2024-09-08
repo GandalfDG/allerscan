@@ -1,0 +1,1463 @@
+{
+    "readResult": {
+        "stringIndexType": "TextElements",
+        "content": "INGREDIENTS: 1101897 FS3 AQUA / WATER / EAU, SODIUM LAURETH SULFATE, GLYCOL\nDISTEARATE, SODIUM CHLORIDE, COCAMIDOPROPYL BETAINE, DIMETHICONE, COCAMIDE MEA,\nPARFUM / FRAGRANCE, CITRIC ACID, SODIUM BENZOATE, SODIUM HYDROXIDE, HEXYLENE\nGLYCOL, COCO-BETAINE, AMODIMETHICONE, SALICYLIC ACID, CARBOMER, GUAR\nHYDROXYPROPYLTRIMONIUM CHLORIDE, TRIDECETH-10, NIACINAMIDE, PYRUS MALUS FRUIT\nWATER / APPLE FRUIT WATER, LINALOOL, PEG-100 STEARATE, STEARETH-6, LIMONENE, HEXYL\nCINNAMAL, TRIDECETH-3, PHENOXYETHANOL, CITRONELLOL,\nFUMARIC ACID, ACETIC ACID. (F.I.L.# T70019029/1)\n5\nPat .: patents.garnier.com",
+        "pages": [
+            {
+                "height": 767.0,
+                "width": 1749.0,
+                "angle": 0.497,
+                "pageNumber": 1,
+                "words": [
+                    {
+                        "content": "INGREDIENTS:",
+                        "boundingBox": [
+                            32.0,
+                            14.0,
+                            283.0,
+                            20.0,
+                            284.0,
+                            94.0,
+                            32.0,
+                            89.0
+                        ],
+                        "confidence": 0.981,
+                        "span": {
+                            "offset": 0,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "1101897",
+                        "boundingBox": [
+                            298.0,
+                            20.0,
+                            454.0,
+                            23.0,
+                            454.0,
+                            97.0,
+                            298.0,
+                            94.0
+                        ],
+                        "confidence": 0.968,
+                        "span": {
+                            "offset": 13,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "FS3",
+                        "boundingBox": [
+                            468.0,
+                            23.0,
+                            541.0,
+                            24.0,
+                            541.0,
+                            99.0,
+                            468.0,
+                            97.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 21,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": "AQUA",
+                        "boundingBox": [
+                            556.0,
+                            24.0,
+                            658.0,
+                            26.0,
+                            658.0,
+                            100.0,
+                            556.0,
+                            99.0
+                        ],
+                        "confidence": 0.988,
+                        "span": {
+                            "offset": 25,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "/",
+                        "boundingBox": [
+                            672.0,
+                            26.0,
+                            687.0,
+                            26.0,
+                            687.0,
+                            100.0,
+                            673.0,
+                            100.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 30,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "WATER",
+                        "boundingBox": [
+                            702.0,
+                            26.0,
+                            838.0,
+                            28.0,
+                            838.0,
+                            102.0,
+                            702.0,
+                            100.0
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 32,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "/",
+                        "boundingBox": [
+                            852.0,
+                            28.0,
+                            862.0,
+                            28.0,
+                            863.0,
+                            102.0,
+                            853.0,
+                            102.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 38,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "EAU,",
+                        "boundingBox": [
+                            877.0,
+                            28.0,
+                            974.0,
+                            28.0,
+                            974.0,
+                            102.0,
+                            877.0,
+                            102.0
+                        ],
+                        "confidence": 0.981,
+                        "span": {
+                            "offset": 40,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "SODIUM",
+                        "boundingBox": [
+                            989.0,
+                            29.0,
+                            1144.0,
+                            29.0,
+                            1145.0,
+                            102.0,
+                            989.0,
+                            102.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 45,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "LAURETH",
+                        "boundingBox": [
+                            1159.0,
+                            29.0,
+                            1348.0,
+                            28.0,
+                            1349.0,
+                            102.0,
+                            1159.0,
+                            102.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 52,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "SULFATE,",
+                        "boundingBox": [
+                            1363.0,
+                            28.0,
+                            1548.0,
+                            27.0,
+                            1549.0,
+                            101.0,
+                            1364.0,
+                            102.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 60,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "GLYCOL",
+                        "boundingBox": [
+                            1562.0,
+                            27.0,
+                            1714.0,
+                            26.0,
+                            1715.0,
+                            99.0,
+                            1563.0,
+                            101.0
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 69,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "DISTEARATE,",
+                        "boundingBox": [
+                            39.0,
+                            93.0,
+                            236.0,
+                            98.0,
+                            235.0,
+                            176.0,
+                            37.0,
+                            171.0
+                        ],
+                        "confidence": 0.981,
+                        "span": {
+                            "offset": 76,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "SODIUM",
+                        "boundingBox": [
+                            251.0,
+                            99.0,
+                            386.0,
+                            101.0,
+                            385.0,
+                            180.0,
+                            250.0,
+                            177.0
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 88,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "CHLORIDE,",
+                        "boundingBox": [
+                            402.0,
+                            102.0,
+                            589.0,
+                            105.0,
+                            588.0,
+                            184.0,
+                            401.0,
+                            180.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 95,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "COCAMIDOPROPYL",
+                        "boundingBox": [
+                            604.0,
+                            105.0,
+                            947.0,
+                            109.0,
+                            947.0,
+                            188.0,
+                            604.0,
+                            184.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 105,
+                            "length": 14
+                        }
+                    },
+                    {
+                        "content": "BETAINE,",
+                        "boundingBox": [
+                            962.0,
+                            109.0,
+                            1129.0,
+                            109.0,
+                            1129.0,
+                            188.0,
+                            963.0,
+                            188.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 120,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "DIMETHICONE,",
+                        "boundingBox": [
+                            1144.0,
+                            109.0,
+                            1414.0,
+                            109.0,
+                            1415.0,
+                            188.0,
+                            1145.0,
+                            188.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 129,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "COCAMIDE",
+                        "boundingBox": [
+                            1430.0,
+                            109.0,
+                            1611.0,
+                            107.0,
+                            1613.0,
+                            187.0,
+                            1431.0,
+                            188.0
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 142,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "MEA,",
+                        "boundingBox": [
+                            1627.0,
+                            107.0,
+                            1716.0,
+                            106.0,
+                            1718.0,
+                            186.0,
+                            1628.0,
+                            187.0
+                        ],
+                        "confidence": 0.753,
+                        "span": {
+                            "offset": 151,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "PARFUM",
+                        "boundingBox": [
+                            36.0,
+                            171.0,
+                            163.0,
+                            174.0,
+                            163.0,
+                            249.0,
+                            36.0,
+                            243.0
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 156,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "/",
+                        "boundingBox": [
+                            178.0,
+                            175.0,
+                            183.0,
+                            175.0,
+                            183.0,
+                            250.0,
+                            178.0,
+                            250.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 163,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "FRAGRANCE,",
+                        "boundingBox": [
+                            199.0,
+                            175.0,
+                            430.0,
+                            181.0,
+                            430.0,
+                            260.0,
+                            199.0,
+                            251.0
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 165,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "CITRIC",
+                        "boundingBox": [
+                            445.0,
+                            181.0,
+                            569.0,
+                            183.0,
+                            569.0,
+                            264.0,
+                            445.0,
+                            260.0
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 176,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "ACID,",
+                        "boundingBox": [
+                            584.0,
+                            184.0,
+                            682.0,
+                            185.0,
+                            682.0,
+                            267.0,
+                            584.0,
+                            264.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 183,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "SODIUM",
+                        "boundingBox": [
+                            697.0,
+                            185.0,
+                            851.0,
+                            187.0,
+                            851.0,
+                            269.0,
+                            697.0,
+                            267.0
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 189,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "BENZOATE,",
+                        "boundingBox": [
+                            867.0,
+                            187.0,
+                            1083.0,
+                            188.0,
+                            1083.0,
+                            270.0,
+                            867.0,
+                            269.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 196,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "SODIUM",
+                        "boundingBox": [
+                            1098.0,
+                            188.0,
+                            1252.0,
+                            188.0,
+                            1252.0,
+                            269.0,
+                            1098.0,
+                            270.0
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 206,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "HYDROXIDE,",
+                        "boundingBox": [
+                            1268.0,
+                            188.0,
+                            1494.0,
+                            187.0,
+                            1494.0,
+                            265.0,
+                            1268.0,
+                            269.0
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 213,
+                            "length": 10
+                        }
+                    },
+                    {
+                        "content": "HEXYLENE",
+                        "boundingBox": [
+                            1509.0,
+                            187.0,
+                            1711.0,
+                            184.0,
+                            1711.0,
+                            259.0,
+                            1509.0,
+                            265.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 224,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "GLYCOL,",
+                        "boundingBox": [
+                            39.0,
+                            249.0,
+                            182.0,
+                            254.0,
+                            182.0,
+                            330.0,
+                            39.0,
+                            324.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 233,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "COCO-BETAINE,",
+                        "boundingBox": [
+                            197.0,
+                            255.0,
+                            515.0,
+                            264.0,
+                            516.0,
+                            340.0,
+                            197.0,
+                            330.0
+                        ],
+                        "confidence": 0.978,
+                        "span": {
+                            "offset": 241,
+                            "length": 13
+                        }
+                    },
+                    {
+                        "content": "AMODIMETHICONE,",
+                        "boundingBox": [
+                            530.0,
+                            264.0,
+                            943.0,
+                            269.0,
+                            945.0,
+                            346.0,
+                            531.0,
+                            341.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 255,
+                            "length": 15
+                        }
+                    },
+                    {
+                        "content": "SALICYLIC",
+                        "boundingBox": [
+                            958.0,
+                            270.0,
+                            1182.0,
+                            270.0,
+                            1184.0,
+                            346.0,
+                            960.0,
+                            346.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 271,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "ACID,",
+                        "boundingBox": [
+                            1197.0,
+                            270.0,
+                            1312.0,
+                            270.0,
+                            1313.0,
+                            346.0,
+                            1199.0,
+                            346.0
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 281,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "CARBOMER,",
+                        "boundingBox": [
+                            1326.0,
+                            269.0,
+                            1575.0,
+                            267.0,
+                            1578.0,
+                            341.0,
+                            1328.0,
+                            345.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 287,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "GUAR",
+                        "boundingBox": [
+                            1590.0,
+                            267.0,
+                            1711.0,
+                            265.0,
+                            1713.0,
+                            338.0,
+                            1593.0,
+                            341.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 297,
+                            "length": 4
+                        }
+                    },
+                    {
+                        "content": "HYDROXYPROPYLTRIMONIUM",
+                        "boundingBox": [
+                            42.0,
+                            325.0,
+                            530.0,
+                            342.0,
+                            531.0,
+                            420.0,
+                            42.0,
+                            394.0
+                        ],
+                        "confidence": 0.958,
+                        "span": {
+                            "offset": 302,
+                            "length": 22
+                        }
+                    },
+                    {
+                        "content": "CHLORIDE,",
+                        "boundingBox": [
+                            545.0,
+                            343.0,
+                            740.0,
+                            347.0,
+                            741.0,
+                            427.0,
+                            546.0,
+                            421.0
+                        ],
+                        "confidence": 0.992,
+                        "span": {
+                            "offset": 325,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "TRIDECETH-10,",
+                        "boundingBox": [
+                            755.0,
+                            347.0,
+                            1035.0,
+                            350.0,
+                            1036.0,
+                            429.0,
+                            756.0,
+                            427.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 335,
+                            "length": 13
+                        }
+                    },
+                    {
+                        "content": "NIACINAMIDE,",
+                        "boundingBox": [
+                            1050.0,
+                            350.0,
+                            1310.0,
+                            349.0,
+                            1311.0,
+                            427.0,
+                            1051.0,
+                            429.0
+                        ],
+                        "confidence": 0.981,
+                        "span": {
+                            "offset": 349,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "PYRUS",
+                        "boundingBox": [
+                            1325.0,
+                            349.0,
+                            1445.0,
+                            347.0,
+                            1446.0,
+                            424.0,
+                            1326.0,
+                            427.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 362,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "MALUS",
+                        "boundingBox": [
+                            1460.0,
+                            347.0,
+                            1585.0,
+                            345.0,
+                            1586.0,
+                            420.0,
+                            1461.0,
+                            424.0
+                        ],
+                        "confidence": 0.997,
+                        "span": {
+                            "offset": 368,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "FRUIT",
+                        "boundingBox": [
+                            1600.0,
+                            345.0,
+                            1711.0,
+                            342.0,
+                            1712.0,
+                            415.0,
+                            1601.0,
+                            419.0
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 374,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "WATER",
+                        "boundingBox": [
+                            46.0,
+                            404.0,
+                            134.0,
+                            408.0,
+                            134.0,
+                            477.0,
+                            46.0,
+                            472.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 380,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "/",
+                        "boundingBox": [
+                            150.0,
+                            408.0,
+                            161.0,
+                            409.0,
+                            160.0,
+                            479.0,
+                            149.0,
+                            479.0
+                        ],
+                        "confidence": 0.982,
+                        "span": {
+                            "offset": 386,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "APPLE",
+                        "boundingBox": [
+                            176.0,
+                            409.0,
+                            276.0,
+                            413.0,
+                            275.0,
+                            487.0,
+                            176.0,
+                            480.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 388,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "FRUIT",
+                        "boundingBox": [
+                            292.0,
+                            414.0,
+                            381.0,
+                            417.0,
+                            381.0,
+                            493.0,
+                            291.0,
+                            488.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 394,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "WATER,",
+                        "boundingBox": [
+                            397.0,
+                            417.0,
+                            528.0,
+                            421.0,
+                            528.0,
+                            500.0,
+                            396.0,
+                            493.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 400,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "LINALOOL,",
+                        "boundingBox": [
+                            544.0,
+                            421.0,
+                            728.0,
+                            425.0,
+                            727.0,
+                            507.0,
+                            543.0,
+                            501.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 407,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "PEG-100",
+                        "boundingBox": [
+                            743.0,
+                            425.0,
+                            890.0,
+                            427.0,
+                            890.0,
+                            511.0,
+                            743.0,
+                            508.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 417,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "STEARATE,",
+                        "boundingBox": [
+                            906.0,
+                            427.0,
+                            1106.0,
+                            428.0,
+                            1106.0,
+                            512.0,
+                            906.0,
+                            511.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 425,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "STEARETH-6,",
+                        "boundingBox": [
+                            1121.0,
+                            428.0,
+                            1363.0,
+                            426.0,
+                            1364.0,
+                            512.0,
+                            1122.0,
+                            512.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 435,
+                            "length": 11
+                        }
+                    },
+                    {
+                        "content": "LIMONENE,",
+                        "boundingBox": [
+                            1379.0,
+                            426.0,
+                            1568.0,
+                            423.0,
+                            1569.0,
+                            507.0,
+                            1379.0,
+                            511.0
+                        ],
+                        "confidence": 0.981,
+                        "span": {
+                            "offset": 447,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "HEXYL",
+                        "boundingBox": [
+                            1584.0,
+                            423.0,
+                            1706.0,
+                            420.0,
+                            1707.0,
+                            503.0,
+                            1584.0,
+                            507.0
+                        ],
+                        "confidence": 0.994,
+                        "span": {
+                            "offset": 457,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "CINNAMAL,",
+                        "boundingBox": [
+                            48.0,
+                            477.0,
+                            215.0,
+                            486.0,
+                            211.0,
+                            561.0,
+                            44.0,
+                            550.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 463,
+                            "length": 9
+                        }
+                    },
+                    {
+                        "content": "TRIDECETH-3,",
+                        "boundingBox": [
+                            230.0,
+                            487.0,
+                            464.0,
+                            497.0,
+                            461.0,
+                            574.0,
+                            226.0,
+                            561.0
+                        ],
+                        "confidence": 0.991,
+                        "span": {
+                            "offset": 473,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "PHENOXYETHANOL,",
+                        "boundingBox": [
+                            479.0,
+                            497.0,
+                            830.0,
+                            507.0,
+                            828.0,
+                            587.0,
+                            476.0,
+                            574.0
+                        ],
+                        "confidence": 0.961,
+                        "span": {
+                            "offset": 486,
+                            "length": 15
+                        }
+                    },
+                    {
+                        "content": "CITRONELLOL,",
+                        "boundingBox": [
+                            846.0,
+                            507.0,
+                            1117.0,
+                            511.0,
+                            1115.0,
+                            591.0,
+                            843.0,
+                            587.0
+                        ],
+                        "confidence": 0.97,
+                        "span": {
+                            "offset": 502,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "FUMARIC",
+                        "boundingBox": [
+                            49.0,
+                            549.0,
+                            177.0,
+                            557.0,
+                            171.0,
+                            638.0,
+                            42.0,
+                            626.0
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 515,
+                            "length": 7
+                        }
+                    },
+                    {
+                        "content": "ACID,",
+                        "boundingBox": [
+                            194.0,
+                            558.0,
+                            272.0,
+                            563.0,
+                            267.0,
+                            646.0,
+                            188.0,
+                            639.0
+                        ],
+                        "confidence": 0.995,
+                        "span": {
+                            "offset": 523,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "ACETIC",
+                        "boundingBox": [
+                            289.0,
+                            564.0,
+                            402.0,
+                            570.0,
+                            397.0,
+                            655.0,
+                            284.0,
+                            647.0
+                        ],
+                        "confidence": 0.996,
+                        "span": {
+                            "offset": 529,
+                            "length": 6
+                        }
+                    },
+                    {
+                        "content": "ACID.",
+                        "boundingBox": [
+                            419.0,
+                            571.0,
+                            503.0,
+                            574.0,
+                            499.0,
+                            661.0,
+                            414.0,
+                            656.0
+                        ],
+                        "confidence": 0.978,
+                        "span": {
+                            "offset": 536,
+                            "length": 5
+                        }
+                    },
+                    {
+                        "content": "(F.I.L.#",
+                        "boundingBox": [
+                            520.0,
+                            575.0,
+                            628.0,
+                            579.0,
+                            624.0,
+                            668.0,
+                            516.0,
+                            662.0
+                        ],
+                        "confidence": 0.925,
+                        "span": {
+                            "offset": 542,
+                            "length": 8
+                        }
+                    },
+                    {
+                        "content": "T70019029/1)",
+                        "boundingBox": [
+                            644.0,
+                            579.0,
+                            899.0,
+                            585.0,
+                            898.0,
+                            676.0,
+                            641.0,
+                            668.0
+                        ],
+                        "confidence": 0.982,
+                        "span": {
+                            "offset": 551,
+                            "length": 12
+                        }
+                    },
+                    {
+                        "content": "5",
+                        "boundingBox": [
+                            1610.0,
+                            572.0,
+                            1633.0,
+                            571.0,
+                            1634.0,
+                            613.0,
+                            1610.0,
+                            614.0
+                        ],
+                        "confidence": 0.993,
+                        "span": {
+                            "offset": 564,
+                            "length": 1
+                        }
+                    },
+                    {
+                        "content": "Pat",
+                        "boundingBox": [
+                            47.0,
+                            626.0,
+                            74.0,
+                            628.0,
+                            72.0,
+                            716.0,
+                            45.0,
+                            715.0
+                        ],
+                        "confidence": 0.998,
+                        "span": {
+                            "offset": 566,
+                            "length": 3
+                        }
+                    },
+                    {
+                        "content": ".:",
+                        "boundingBox": [
+                            90.0,
+                            628.0,
+                            102.0,
+                            629.0,
+                            99.0,
+                            718.0,
+                            88.0,
+                            717.0
+                        ],
+                        "confidence": 0.046,
+                        "span": {
+                            "offset": 570,
+                            "length": 2
+                        }
+                    },
+                    {
+                        "content": "patents.garnier.com",
+                        "boundingBox": [
+                            118.0,
+                            630.0,
+                            439.0,
+                            652.0,
+                            434.0,
+                            731.0,
+                            116.0,
+                            718.0
+                        ],
+                        "confidence": 0.743,
+                        "span": {
+                            "offset": 573,
+                            "length": 19
+                        }
+                    }
+                ],
+                "spans": [
+                    {
+                        "offset": 0,
+                        "length": 592
+                    }
+                ],
+                "lines": [
+                    {
+                        "content": "INGREDIENTS: 1101897 FS3 AQUA / WATER / EAU, SODIUM LAURETH SULFATE, GLYCOL",
+                        "boundingBox": [
+                            31.0,
+                            13.0,
+                            1718.0,
+                            25.0,
+                            1718.0,
+                            102.0,
+                            31.0,
+                            95.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 0,
+                                "length": 75
+                            }
+                        ]
+                    },
+                    {
+                        "content": "DISTEARATE, SODIUM CHLORIDE, COCAMIDOPROPYL BETAINE, DIMETHICONE, COCAMIDE MEA,",
+                        "boundingBox": [
+                            33.0,
+                            92.0,
+                            1719.0,
+                            105.0,
+                            1718.0,
+                            188.0,
+                            33.0,
+                            179.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 76,
+                                "length": 79
+                            }
+                        ]
+                    },
+                    {
+                        "content": "PARFUM / FRAGRANCE, CITRIC ACID, SODIUM BENZOATE, SODIUM HYDROXIDE, HEXYLENE",
+                        "boundingBox": [
+                            35.0,
+                            170.0,
+                            1715.0,
+                            184.0,
+                            1714.0,
+                            270.0,
+                            35.0,
+                            260.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 156,
+                                "length": 76
+                            }
+                        ]
+                    },
+                    {
+                        "content": "GLYCOL, COCO-BETAINE, AMODIMETHICONE, SALICYLIC ACID, CARBOMER, GUAR",
+                        "boundingBox": [
+                            38.0,
+                            249.0,
+                            1717.0,
+                            264.0,
+                            1716.0,
+                            346.0,
+                            38.0,
+                            337.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 233,
+                                "length": 68
+                            }
+                        ]
+                    },
+                    {
+                        "content": "HYDROXYPROPYLTRIMONIUM CHLORIDE, TRIDECETH-10, NIACINAMIDE, PYRUS MALUS FRUIT",
+                        "boundingBox": [
+                            42.0,
+                            325.0,
+                            1714.0,
+                            342.0,
+                            1713.0,
+                            429.0,
+                            42.0,
+                            417.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 302,
+                                "length": 77
+                            }
+                        ]
+                    },
+                    {
+                        "content": "WATER / APPLE FRUIT WATER, LINALOOL, PEG-100 STEARATE, STEARETH-6, LIMONENE, HEXYL",
+                        "boundingBox": [
+                            46.0,
+                            404.0,
+                            1710.0,
+                            420.0,
+                            1708.0,
+                            512.0,
+                            45.0,
+                            497.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 380,
+                                "length": 82
+                            }
+                        ]
+                    },
+                    {
+                        "content": "CINNAMAL, TRIDECETH-3, PHENOXYETHANOL, CITRONELLOL,",
+                        "boundingBox": [
+                            46.0,
+                            477.0,
+                            1118.0,
+                            510.0,
+                            1115.0,
+                            591.0,
+                            44.0,
+                            558.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 463,
+                                "length": 51
+                            }
+                        ]
+                    },
+                    {
+                        "content": "FUMARIC ACID, ACETIC ACID. (F.I.L.# T70019029/1)",
+                        "boundingBox": [
+                            46.0,
+                            548.0,
+                            899.0,
+                            584.0,
+                            896.0,
+                            676.0,
+                            42.0,
+                            636.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 515,
+                                "length": 48
+                            }
+                        ]
+                    },
+                    {
+                        "content": "5",
+                        "boundingBox": [
+                            1612.0,
+                            573.0,
+                            1678.0,
+                            571.0,
+                            1679.0,
+                            613.0,
+                            1610.0,
+                            614.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 564,
+                                "length": 1
+                            }
+                        ]
+                    },
+                    {
+                        "content": "Pat .: patents.garnier.com",
+                        "boundingBox": [
+                            46.0,
+                            626.0,
+                            440.0,
+                            647.0,
+                            435.0,
+                            731.0,
+                            45.0,
+                            713.0
+                        ],
+                        "spans": [
+                            {
+                                "offset": 566,
+                                "length": 26
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "styles": [],
+        "modelVersion": "2022-04-30"
+    },
+    "modelVersion": "2023-02-01-preview",
+    "metadata": {
+        "width": 1749,
+        "height": 767
+    }
+}
