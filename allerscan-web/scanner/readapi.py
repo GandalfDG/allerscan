@@ -26,16 +26,3 @@ def read_api_request(image_url):
     response = requests.post(api_endpoint + "computervision/imageanalysis:analyze", params=query_params, headers=request_header, data=request_body)
 
     return response
-
-def load_allergens(yaml_path: str)-> dict:
-    with open(yaml_path) as infile:
-        allergens = yaml.load(infile, Loader=yaml.Loader)
-        return allergens
-
-def match_allergens(response: requests.Response):
-    ingredients = response.json()
-    text: str = ingredients["readResult"]["content"]
-    ingredient_list = text.split(",")
-
-    for ingredient in ingredient_list:
-        pass
