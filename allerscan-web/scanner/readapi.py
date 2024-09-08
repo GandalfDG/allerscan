@@ -28,7 +28,9 @@ def read_api_request(image_url):
     return response
 
 def load_allergens(yaml_path: str)-> dict:
-    pass
+    with open(yaml_path) as infile:
+        allergens = yaml.load(infile, Loader=yaml.Loader)
+        return allergens
 
 def match_allergens(response: requests.Response):
     ingredients = response.json()
