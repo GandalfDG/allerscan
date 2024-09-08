@@ -45,5 +45,29 @@ class AllergenMatcherTest(TestCase):
         self.assertGreater(len(matches), 0)
         self.assertIn(("hydroperoxides of limonene", "limonene"), matches)
 
-    def test_match_allergen_fuzzy(self):
-        
+    def test_match_allergens_fuzzy(self):
+        ingredients = '''
+        Ac1dun  benz0icum,
+        INGREDIENTS: 1101897 FS3 AQUA / WATER / EAU, SODIUM LAURETH SULFATE, 
+        GLYCOL\nDISTEARATE, SODIUM CHLORIDE, COCAMIDOPROPYL BETAINE, 
+        DIMETHICONE, COCAMIDE MEA,\nPARFUM / FRAGRANCE, CITRIC ACID, 
+        SODIUM BENZOATE, SODIUM HYDROXIDE, HEXYLENE\nGLYCOL, COCO-BETAINE, 
+        AMODIMETHICONE, SALICYLIC ACID, CARBOMER, GUAR\nHYDROXYPROPYLTRIMONIUM
+        CHLORIDE, TRIDECETH-10, NIACINAMIDE, PYRUS MALUS FRUIT\nWATER / 
+        APPLE FRUIT WATER, LINALOOL, PEG-100 STEARATE, STEARETH-6, 
+        LIMONENE, HEXYL\nCINNAMAL, TRIDECETH-3, PHENOXYETHANOL, CITRONELLOL,
+        \nFUMARIC ACID, ACETIC ACID. (F.I.L.# T70019029/1)\n5\nPat .: 
+        patents.garnier.com",
+        '''
+
+        matches = self.matcher.match_allergens(ingredients)
+        self.assertIn(("benzoic acid", "acidum benzoicun"), matches)
+
+    def test_fuzzy_match_single(self):
+        ingredient = "ac1dun  benz0icum"
+        ingredient2 = "benz1s0nazol-2one"
+
+        match = self.matcher.fuzzy_match_allergen(ingredient)
+        self.assertEqual(match, ("benzoic acid", "acidum benzoicun"))
+
+        match = self.matcher.fuzzy_match_allergen(ingredient2)
