@@ -5,6 +5,7 @@ Django==5.1
 idna==3.8
 pillow==10.4.0
 python-dotenv==1.0.1
+rapidfuzz==3.9.7
 requests==2.32.3
 sqlparse==0.5.1
 urllib3==2.2.2
