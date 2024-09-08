@@ -51,10 +51,10 @@ class AllergenMatcher():
             options = list()
             options.append(name)
             options.extend(alternatives)
-            result = rapidfuzz.process.extract(
-                choices=options, query=ingredient, limit=1, score_cutoff=70)
+            result = rapidfuzz.process.extractOne(
+                choices=options, query=ingredient, score_cutoff=95)
             if result:
-                matched_results.append((name, result[0]))
+                matched_results.append((name, result))
 
         if matched_results:
             best_match = max(matched_results, key=lambda result_tuple:

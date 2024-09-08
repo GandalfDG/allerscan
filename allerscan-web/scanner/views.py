@@ -1,4 +1,5 @@
 from django.http import HttpResponse, HttpResponseRedirect
+from django.http import JsonResponse
 from django.shortcuts import render
 from django.template import loader
 from django.conf import settings
@@ -10,8 +11,11 @@ import os
 
 from .forms import ImageUploadForm
 from . import readapi
+from .allergenmatcher import AllergenMatcher
 
 logger = logging.getLogger(__name__)
+
+allergy_matcher = AllergenMatcher("scanner/allergens.yaml")
 
 def scanpage(request):
     
@@ -25,11 +29,20 @@ def scanpage(request):
                 upload_url = settings.MEDIA_URL + upload_filename
                 try:
                     image.save(os.path.join(settings.MEDIA_ROOT, upload_filename), format=image.format)
-                    api_response = readapi.read_api_request(upload_url)
-                    print(upload_url)
-                    print(api_response.text)
 
-                    return HttpResponseRedirect("/submit/")
+                    api_response = None
+                    if settings.DEBUG:
+                        api_response = readapi.read_api_request("https://allergy.jack-case.pro/media/upload.jpg")
+                    else: 
+                        api_response = readapi.read_api_request(upload_url)
+                    
+                    full_text = api_response.json()["readResult"]["content"]
+                    matching_allergens = allergy_matcher.match_allergens(full_text)
+                    print(matching_allergens)
+
+
+
+                    return HttpResponse(f"matches: {matching_allergens}")
                 except OSError as err:
                     logger.error("Couldn't save uploaded image", exc_info=err)
                 
@@ -39,6 +52,3 @@ def scanpage(request):
         form = ImageUploadForm()
     
     return render(request, "scanner/index.html", {"form": form})
-
-def submitpage(request):
-    return HttpResponse("submitted!")

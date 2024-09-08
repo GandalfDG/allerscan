@@ -47,7 +47,7 @@ class AllergenMatcherTest(TestCase):
 
     def test_match_allergens_fuzzy(self):
         ingredients = '''
-        Ac1dun  benz0icum,
+        acidom benzoicum,
         INGREDIENTS: 1101897 FS3 AQUA / WATER / EAU, SODIUM LAURETH SULFATE, 
         GLYCOL\nDISTEARATE, SODIUM CHLORIDE, COCAMIDOPROPYL BETAINE, 
         DIMETHICONE, COCAMIDE MEA,\nPARFUM / FRAGRANCE, CITRIC ACID, 
@@ -64,7 +64,7 @@ class AllergenMatcherTest(TestCase):
         self.assertIn(("benzoic acid", "acidum benzoicun"), matches)
 
     def test_fuzzy_match_single(self):
-        ingredient = "ac1dun  benz0icum"
+        ingredient = "acidum benzolcum"
         ingredient2 = "benz1s0nazol-2one"
 
         match = self.matcher.fuzzy_match_allergen(ingredient)
