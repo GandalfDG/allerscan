@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import dotenv
+import os
+
+env_set = dotenv.load_dotenv("/root/allerscan.env")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,19 +24,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-$o4utmz$)mdz%t)+4yal)8@^cv13t&00&uk!#-s_n+*rtx7c)l"
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY") if os.getenv("DJANGO_SECRET_KEY") else "django-insecure-$o4utmz$)mdz%t)+4yal)8@^cv13t&00&uk!#-s_n+*rtx7c)l"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False if env_set else True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [os.getenv("DJANGO_ALLOWED_HOSTS")] if os.getenv("DJANGO_ALLOWED_HOSTS") else []
 
 
 # Application definition
 
 INSTALLED_APPS = [
     "scanner.apps",
-    "django.contrib.admin",
+    # "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
@@ -74,12 +78,12 @@ WSGI_APPLICATION = "allerscan.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
 
 
 # Password validation
