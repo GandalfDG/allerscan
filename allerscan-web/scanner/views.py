@@ -34,7 +34,7 @@ def scanpage(request):
                     if not os.getenv("DJANGO_MEDIA_ROOT"):
                         api_response = readapi.read_api_request("https://allergy.jack-case.pro/media/upload.jpg")
                     else: 
-                        api_response = readapi.read_api_request(upload_url)
+                        api_response = readapi.read_api_request(settings.BASE_URL + upload_url)
                     
                     full_text = api_response.json()["readResult"]["content"]
                     matching_allergens = allergy_matcher.match_allergens(full_text)
