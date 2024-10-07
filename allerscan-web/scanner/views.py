@@ -31,7 +31,7 @@ def scanpage(request):
                     image.save(os.path.join(settings.MEDIA_ROOT, upload_filename), format=image.format)
 
                     api_response = None
-                    if settings.DEBUG:
+                    if not os.getenv("DJANGO_MEDIA_ROOT"):
                         api_response = readapi.read_api_request("https://allergy.jack-case.pro/media/upload.jpg")
                     else: 
                         api_response = readapi.read_api_request(upload_url)
