@@ -27,9 +27,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY") if os.getenv("DJANGO_SECRET_KEY") else "django-insecure-$o4utmz$)mdz%t)+4yal)8@^cv13t&00&uk!#-s_n+*rtx7c)l"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False if env_set else True
+#DEBUG = False if env_set else True
+DEBUG = True
 
 ALLOWED_HOSTS = [os.getenv("DJANGO_ALLOWED_HOSTS")] if os.getenv("DJANGO_ALLOWED_HOSTS") else []
+CSRF_TRUSTED_ORIGINS = [os.getenv("DJANGO_TRUSTED_ORIGINS")] if os.getenv("DJANGO_TRUSTED_ORIGINS") else [] 
 
 
 # Application definition
