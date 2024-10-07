@@ -23,6 +23,9 @@ def read_api_request(image_url):
         "Ocp-Apim-Subscription-Key": api_key,
         "Content-Type": "application/json"
     }
+
+    print(query_params, request_body, request_header)
+
     response = requests.post(api_endpoint + "computervision/imageanalysis:analyze", params=query_params, headers=request_header, data=request_body)
 
     return response
