@@ -19,7 +19,7 @@ env_set = dotenv.load_dotenv("/root/allerscan.env")
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-BASE_URL = "https://allergy.jack-case.pro"
+BASE_URL = os.getenv("DJANGO_BASE_URL") if os.getenv("DJANGO_BASE_URL") else ""
 
 
 # Quick-start development settings - unsuitable for production
