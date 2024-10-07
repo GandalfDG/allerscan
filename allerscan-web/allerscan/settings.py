@@ -124,7 +124,11 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
-MEDIA_ROOT = "/workspaces/allerscan/media/"
+if os.getenv("DJANGO_MEDIA_ROOT"):
+    MEDIA_ROOT = os.getenv("DJANGO_MEDIA_ROOT")
+else:
+    os.makedirs("./media/", exist_ok=True)
+    MEDIA_ROOT = "./media/"
 MEDIA_URL = "media/"
 
 # Default primary key field type
