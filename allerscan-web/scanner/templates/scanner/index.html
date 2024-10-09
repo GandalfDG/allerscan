@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<head>
+{% extends "base.html" %}
 
-</head>
+{% block content %}
+<h1>hello!</h1>
 
-<body>
-    <h1>hello!</h1>
-
-    <form enctype="multipart/form-data" method="post" action="/">
-        {% csrf_token %}
-        {{ form }}
-        <input type="submit" value="Submit">
-    </form>
-</body>
+<form enctype="multipart/form-data" method="post" action="/">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+{% endblock  %}
