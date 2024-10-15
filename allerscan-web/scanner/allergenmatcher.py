@@ -1,8 +1,15 @@
 import yaml
+import re
 import rapidfuzz
 
 
 class AllergenMatcher():
+    
+    STRIP_CHARACTERS = [
+        "[^a-zA-Z0-9_-]",
+        "\v",
+    ]
+    STRIP_CHARACTER_PATTERN = re.compile(f"[{"".join(STRIP_CHARACTERS)}]")
 
     def __init__(self, allergens_yaml_path: str):
         with open(allergens_yaml_path) as infile:
@@ -18,8 +25,12 @@ class AllergenMatcher():
 
     def get_allergen_dict(self):
         return self.allergen_dict
+    
+    def match_allergens(self, ingredients: str):
+        # strip all non-word characters, whitespace, etc. from the string returned by the API
+        cleaned_ingredients = re.sub(AllergenMatcher.STRIP_CHARACTER_PATTERN, "", ingredients)
 
-    def match_allergens(self, ingredients: str) -> list[tuple[str, str]]:
+    def old_match_allergens(self, ingredients: str) -> list[tuple[str, str]]:
         ingredient_list: list[str] = ingredients.lower().split(",")
         ingredient_list = [ingredient.strip()
                            for ingredient in ingredient_list]
